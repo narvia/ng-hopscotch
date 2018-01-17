@@ -1,6 +1,6 @@
 {
-  "name": "ng-hopscotch",
-  "homepage": "https://github.com/qu1ze/ng-hopscotch",
+  "name": "narvia/ng-hopscotch",
+  "homepage": "https://github.com/narvia/ng-hopscotch",
   "description": "Hopscotch angular wrapper",
   "main": "src/ng-hopscotch.js",
   "version" : "0.1.2",
