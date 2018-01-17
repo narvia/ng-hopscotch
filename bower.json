@@ -3,7 +3,7 @@
   "homepage": "https://github.com/narvia/ng-hopscotch-concise",
   "description": "Hopscotch angular wrapper",
   "main": "src/ng-hopscotch.js",
-  "version" : "0.0.1",
+  "version" : "0.1.3",
   "keywords": [
     "Hopscotch",
     "Angular"
