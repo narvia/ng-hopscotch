@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/qu1ze/ng-hopscotch/issues"
   },
-  "homepage": "https://github.com/qu1ze/ng-hopscotch",
+  "homepage": "https://github.com/narvia/ng-hopscotch",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.7.0",
