@@ -1,2 +1,2 @@
-# ng-hopscotch
+# ng-hopscotch-concise
 Hopscotch angular wrapper
