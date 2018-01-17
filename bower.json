@@ -1,15 +1,16 @@
 {
-  "name": "narvia/ng-hopscotch",
-  "homepage": "https://github.com/narvia/ng-hopscotch",
+  "name": "ng-hopscotch-concise",
+  "homepage": "https://github.com/narvia/ng-hopscotch-concise",
   "description": "Hopscotch angular wrapper",
   "main": "src/ng-hopscotch.js",
-  "version" : "0.1.2",
+  "version" : "0.0.1",
   "keywords": [
     "Hopscotch",
     "Angular"
   ],
   "authors": [
-    "Oleg Meleshko <oleg.meleshko.dev@gmail.com>"
+    "Oleg Meleshko <oleg.meleshko.dev@gmail.com>",
+    "Jen Beattie <malfunctioning.jen@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
