@@ -1,3 +1,9 @@
+function closeTour() {
+  if (confirm("This tutorial will not be shown again until you re-visit this page")) {
+    hopscotch.endTour(false);
+  }
+}
+
 angular.module('ngHopscotch', []);
 
 angular.module('ngHopscotch').factory('hopscotch', function() {
@@ -44,6 +50,10 @@ angular.module('ngHopscotch').service('HSTour', ['hopscotch', 'HSHelper', 'HSCac
     tour.onClose = function() {
       HSCache.isClosed = true;
     };
+
+    tour.steps.forEach(function(step) {
+      step.content = "<button class='hopscotch-bubble-close' style='position:absolute;bottom:20px' href='#' onclick='closeTour()'>Close tour</button>" + step.content;
+    });
   };
 
   HSTour.prototype.init = function(tour) {
